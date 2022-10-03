@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header{
+  background-color: gray;
+  display: flex;
+}
+header nav{
+margin: auto;
+}
+header ul{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 29px;
+}
+header li{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+img{
+  margin-left: 300px;
+}
+h1{
+  text-align: center;
+}
+.login{
+  text-align: center;
+}
